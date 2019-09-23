@@ -1,0 +1,27 @@
+nav { 
+border-bottom: 1px solid white;
+ }
+.Doodles li{ 
+list-style-type: none;
+padding-left: 0;
+color: white;
+ }
+.Doodles a::after { 
+    display: inline-block;
+    color: white;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+                  }
+p{ 
+color: white;
+font-size: 100%;
+ }
+body{ 
+background-color: black;
+color: white; 
+}
+a{ 
+color: red;
+ }
